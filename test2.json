@@ -1,0 +1,730 @@
+[
+  {
+    "self": "http://jira.norwex.local/rest/api/2/status/3",
+    "description": "This issue is being actively worked on at the moment by the assignee.",
+    "iconUrl": "http://jira.norwex.local/images/icons/statuses/inprogress.png",
+    "name": "Verifying",
+    "id": "3",
+    "statusCategory": {
+      "self": "http://jira.norwex.local/rest/api/2/statuscategory/4",
+      "id": 4,
+      "key": "indeterminate",
+      "colorName": "yellow",
+      "name": "In Progress"
+    }
+  },
+  {
+    "self": "http://jira.norwex.local/rest/api/2/status/4",
+    "description": "This issue was once resolved, but the resolution was deemed incorrect. From here issues are either marked assigned or resolved.",
+    "iconUrl": "http://jira.norwex.local/images/icons/statuses/reopened.png",
+    "name": "Reopened",
+    "id": "4",
+    "statusCategory": {
+      "self": "http://jira.norwex.local/rest/api/2/statuscategory/2",
+      "id": 2,
+      "key": "new",
+      "colorName": "blue-gray",
+      "name": "To Do"
+    }
+  },
+  {
+    "self": "http://jira.norwex.local/rest/api/2/status/5",
+    "description": "A resolution has been taken, and it is awaiting verification by reporter. From here issues are either reopened, or are closed.",
+    "iconUrl": "http://jira.norwex.local/images/icons/statuses/resolved.png",
+    "name": "Resolved",
+    "id": "5",
+    "statusCategory": {
+      "self": "http://jira.norwex.local/rest/api/2/statuscategory/3",
+      "id": 3,
+      "key": "done",
+      "colorName": "green",
+      "name": "Done"
+    }
+  },
+  {
+    "self": "http://jira.norwex.local/rest/api/2/status/6",
+    "description": "The issue is considered finished, the resolution is correct. Issues which are closed can be reopened.",
+    "iconUrl": "http://jira.norwex.local/images/icons/statuses/closed.png",
+    "name": "Closed",
+    "id": "6",
+    "statusCategory": {
+      "self": "http://jira.norwex.local/rest/api/2/statuscategory/3",
+      "id": 3,
+      "key": "done",
+      "colorName": "green",
+      "name": "Done"
+    }
+  },
+  {
+    "self": "http://jira.norwex.local/rest/api/2/status/10000",
+    "description": "",
+    "iconUrl": "http://jira.norwex.local/images/icons/statuses/open.png",
+    "name": "To Do",
+    "id": "10000",
+    "statusCategory": {
+      "self": "http://jira.norwex.local/rest/api/2/statuscategory/2",
+      "id": 2,
+      "key": "new",
+      "colorName": "blue-gray",
+      "name": "To Do"
+    }
+  },
+  {
+    "self": "http://jira.norwex.local/rest/api/2/status/10002",
+    "description": "Do not use going forward",
+    "iconUrl": "http://jira.norwex.local/images/icons/statuses/closed.png",
+    "name": "Done",
+    "id": "10002",
+    "statusCategory": {
+      "self": "http://jira.norwex.local/rest/api/2/statuscategory/3",
+      "id": 3,
+      "key": "done",
+      "colorName": "green",
+      "name": "Done"
+    }
+  },
+  {
+    "self": "http://jira.norwex.local/rest/api/2/status/10100",
+    "description": "",
+    "iconUrl": "http://jira.norwex.local/images/icons/status_generic.gif",
+    "name": "In Development",
+    "id": "10100",
+    "statusCategory": {
+      "self": "http://jira.norwex.local/rest/api/2/statuscategory/4",
+      "id": 4,
+      "key": "indeterminate",
+      "colorName": "yellow",
+      "name": "In Progress"
+    }
+  },
+  {
+    "self": "http://jira.norwex.local/rest/api/2/status/10101",
+    "description": "",
+    "iconUrl": "http://jira.norwex.local/images/icons/status_generic.gif",
+    "name": "In QA Review",
+    "id": "10101",
+    "statusCategory": {
+      "self": "http://jira.norwex.local/rest/api/2/statuscategory/4",
+      "id": 4,
+      "key": "indeterminate",
+      "colorName": "yellow",
+      "name": "In Progress"
+    }
+  },
+  {
+    "self": "http://jira.norwex.local/rest/api/2/status/10102",
+    "description": "",
+    "iconUrl": "http://jira.norwex.local/images/icons/status_generic.gif",
+    "name": "Waiting for QA Review",
+    "id": "10102",
+    "statusCategory": {
+      "self": "http://jira.norwex.local/rest/api/2/statuscategory/4",
+      "id": 4,
+      "key": "indeterminate",
+      "colorName": "yellow",
+      "name": "In Progress"
+    }
+  },
+  {
+    "self": "http://jira.norwex.local/rest/api/2/status/10103",
+    "description": "Pending start of work",
+    "iconUrl": "http://jira.norwex.local/images/icons/statuses/generic.png",
+    "name": "Pending",
+    "id": "10103",
+    "statusCategory": {
+      "self": "http://jira.norwex.local/rest/api/2/statuscategory/2",
+      "id": 2,
+      "key": "new",
+      "colorName": "blue-gray",
+      "name": "To Do"
+    }
+  },
+  {
+    "self": "http://jira.norwex.local/rest/api/2/status/10104",
+    "description": "Rework for reporting bugs in development",
+    "iconUrl": "http://jira.norwex.local/images/icons/statuses/generic.png",
+    "name": "In Rework",
+    "id": "10104",
+    "statusCategory": {
+      "self": "http://jira.norwex.local/rest/api/2/statuscategory/4",
+      "id": 4,
+      "key": "indeterminate",
+      "colorName": "yellow",
+      "name": "In Progress"
+    }
+  },
+  {
+    "self": "http://jira.norwex.local/rest/api/2/status/10300",
+    "description": "This was auto-generated by JIRA Service Desk during workflow import",
+    "iconUrl": "http://jira.norwex.local/images/icons/status_generic.gif",
+    "name": "Waiting for support",
+    "id": "10300",
+    "statusCategory": {
+      "self": "http://jira.norwex.local/rest/api/2/statuscategory/4",
+      "id": 4,
+      "key": "indeterminate",
+      "colorName": "yellow",
+      "name": "In Progress"
+    }
+  },
+  {
+    "self": "http://jira.norwex.local/rest/api/2/status/10301",
+    "description": "This was auto-generated by JIRA Service Desk during workflow import",
+    "iconUrl": "http://jira.norwex.local/images/icons/status_generic.gif",
+    "name": "Waiting for customer",
+    "id": "10301",
+    "statusCategory": {
+      "self": "http://jira.norwex.local/rest/api/2/statuscategory/4",
+      "id": 4,
+      "key": "indeterminate",
+      "colorName": "yellow",
+      "name": "In Progress"
+    }
+  },
+  {
+    "self": "http://jira.norwex.local/rest/api/2/status/10400",
+    "description": "Task is invalid and is closed.",
+    "iconUrl": "http://jira.norwex.local/images/icons/statuses/generic.png",
+    "name": "Invalid",
+    "id": "10400",
+    "statusCategory": {
+      "self": "http://jira.norwex.local/rest/api/2/statuscategory/3",
+      "id": 3,
+      "key": "done",
+      "colorName": "green",
+      "name": "Done"
+    }
+  },
+  {
+    "self": "http://jira.norwex.local/rest/api/2/status/10401",
+    "description": "Task was valid, but is no longer needed.",
+    "iconUrl": "http://jira.norwex.local/images/icons/statuses/generic.png",
+    "name": "Deprecated",
+    "id": "10401",
+    "statusCategory": {
+      "self": "http://jira.norwex.local/rest/api/2/statuscategory/3",
+      "id": 3,
+      "key": "done",
+      "colorName": "green",
+      "name": "Done"
+    }
+  },
+  {
+    "self": "http://jira.norwex.local/rest/api/2/status/10500",
+    "description": "This status is managed internally by JIRA Software",
+    "iconUrl": "http://jira.norwex.local/images/icons/subtask.gif",
+    "name": "By Design",
+    "id": "10500",
+    "statusCategory": {
+      "self": "http://jira.norwex.local/rest/api/2/statuscategory/3",
+      "id": 3,
+      "key": "done",
+      "colorName": "green",
+      "name": "Done"
+    }
+  },
+  {
+    "self": "http://jira.norwex.local/rest/api/2/status/10603",
+    "description": "This status is managed internally by JIRA Software",
+    "iconUrl": "http://jira.norwex.local/",
+    "name": "Rework",
+    "id": "10603",
+    "statusCategory": {
+      "self": "http://jira.norwex.local/rest/api/2/statuscategory/4",
+      "id": 4,
+      "key": "indeterminate",
+      "colorName": "yellow",
+      "name": "In Progress"
+    }
+  },
+  {
+    "self": "http://jira.norwex.local/rest/api/2/status/10700",
+    "description": "This status is managed internally by JIRA Software",
+    "iconUrl": "http://jira.norwex.local/",
+    "name": "In Stage Review",
+    "id": "10700",
+    "statusCategory": {
+      "self": "http://jira.norwex.local/rest/api/2/statuscategory/4",
+      "id": 4,
+      "key": "indeterminate",
+      "colorName": "yellow",
+      "name": "In Progress"
+    }
+  },
+  {
+    "self": "http://jira.norwex.local/rest/api/2/status/10800",
+    "description": "Waiting for Development",
+    "iconUrl": "http://jira.norwex.local/images/icons/statuses/generic.png",
+    "name": "Waiting for Development",
+    "id": "10800",
+    "statusCategory": {
+      "self": "http://jira.norwex.local/rest/api/2/statuscategory/2",
+      "id": 2,
+      "key": "new",
+      "colorName": "blue-gray",
+      "name": "To Do"
+    }
+  },
+  {
+    "self": "http://jira.norwex.local/rest/api/2/status/10801",
+    "description": "In Design",
+    "iconUrl": "http://jira.norwex.local/images/icons/statuses/generic.png",
+    "name": "In Design",
+    "id": "10801",
+    "statusCategory": {
+      "self": "http://jira.norwex.local/rest/api/2/statuscategory/4",
+      "id": 4,
+      "key": "indeterminate",
+      "colorName": "yellow",
+      "name": "In Progress"
+    }
+  },
+  {
+    "self": "http://jira.norwex.local/rest/api/2/status/10802",
+    "description": "Waiting to Deploy",
+    "iconUrl": "http://jira.norwex.local/images/icons/statuses/generic.png",
+    "name": "Waiting to Deploy",
+    "id": "10802",
+    "statusCategory": {
+      "self": "http://jira.norwex.local/rest/api/2/statuscategory/4",
+      "id": 4,
+      "key": "indeterminate",
+      "colorName": "yellow",
+      "name": "In Progress"
+    }
+  },
+  {
+    "self": "http://jira.norwex.local/rest/api/2/status/10803",
+    "description": "",
+    "iconUrl": "http://jira.norwex.local/images/icons/statuses/generic.png",
+    "name": "Waiting for Stage Review",
+    "id": "10803",
+    "statusCategory": {
+      "self": "http://jira.norwex.local/rest/api/2/statuscategory/4",
+      "id": 4,
+      "key": "indeterminate",
+      "colorName": "yellow",
+      "name": "In Progress"
+    }
+  },
+  {
+    "self": "http://jira.norwex.local/rest/api/2/status/10804",
+    "description": "When a developer has started working on an issue and is interrupted",
+    "iconUrl": "http://jira.norwex.local/images/icons/statuses/generic.png",
+    "name": "Development Suspended",
+    "id": "10804",
+    "statusCategory": {
+      "self": "http://jira.norwex.local/rest/api/2/statuscategory/2",
+      "id": 2,
+      "key": "new",
+      "colorName": "blue-gray",
+      "name": "To Do"
+    }
+  },
+  {
+    "self": "http://jira.norwex.local/rest/api/2/status/10805",
+    "description": "",
+    "iconUrl": "http://jira.norwex.local/images/icons/statuses/generic.png",
+    "name": "Waiting for Design",
+    "id": "10805",
+    "statusCategory": {
+      "self": "http://jira.norwex.local/rest/api/2/statuscategory/2",
+      "id": 2,
+      "key": "new",
+      "colorName": "blue-gray",
+      "name": "To Do"
+    }
+  },
+  {
+    "self": "http://jira.norwex.local/rest/api/2/status/10806",
+    "description": "",
+    "iconUrl": "http://jira.norwex.local/images/icons/statuses/generic.png",
+    "name": "Design Suspended",
+    "id": "10806",
+    "statusCategory": {
+      "self": "http://jira.norwex.local/rest/api/2/statuscategory/2",
+      "id": 2,
+      "key": "new",
+      "colorName": "blue-gray",
+      "name": "To Do"
+    }
+  },
+  {
+    "self": "http://jira.norwex.local/rest/api/2/status/10807",
+    "description": "Waiting for Peer Review",
+    "iconUrl": "http://jira.norwex.local/images/icons/statuses/generic.png",
+    "name": "Waiting for Peer Review",
+    "id": "10807",
+    "statusCategory": {
+      "self": "http://jira.norwex.local/rest/api/2/statuscategory/4",
+      "id": 4,
+      "key": "indeterminate",
+      "colorName": "yellow",
+      "name": "In Progress"
+    }
+  },
+  {
+    "self": "http://jira.norwex.local/rest/api/2/status/10808",
+    "description": "In Peer Review",
+    "iconUrl": "http://jira.norwex.local/images/icons/statuses/generic.png",
+    "name": "In Peer Review",
+    "id": "10808",
+    "statusCategory": {
+      "self": "http://jira.norwex.local/rest/api/2/statuscategory/4",
+      "id": 4,
+      "key": "indeterminate",
+      "colorName": "yellow",
+      "name": "In Progress"
+    }
+  },
+  {
+    "self": "http://jira.norwex.local/rest/api/2/status/10809",
+    "description": "Waiting for Rework",
+    "iconUrl": "http://jira.norwex.local/images/icons/statuses/generic.png",
+    "name": "Waiting for Rework",
+    "id": "10809",
+    "statusCategory": {
+      "self": "http://jira.norwex.local/rest/api/2/statuscategory/2",
+      "id": 2,
+      "key": "new",
+      "colorName": "blue-gray",
+      "name": "To Do"
+    }
+  },
+  {
+    "self": "http://jira.norwex.local/rest/api/2/status/11000",
+    "description": "Ticket validity needs Q/A verification",
+    "iconUrl": "http://jira.norwex.local/images/icons/statuses/generic.png",
+    "name": "To Be Verified",
+    "id": "11000",
+    "statusCategory": {
+      "self": "http://jira.norwex.local/rest/api/2/statuscategory/2",
+      "id": 2,
+      "key": "new",
+      "colorName": "blue-gray",
+      "name": "To Do"
+    }
+  },
+  {
+    "self": "http://jira.norwex.local/rest/api/2/status/11200",
+    "description": "Issues that will not be immediately addressed, but need to be tracked.",
+    "iconUrl": "http://jira.norwex.local/images/icons/statuses/generic.png",
+    "name": "Roadmap",
+    "id": "11200",
+    "statusCategory": {
+      "self": "http://jira.norwex.local/rest/api/2/statuscategory/2",
+      "id": 2,
+      "key": "new",
+      "colorName": "blue-gray",
+      "name": "To Do"
+    }
+  },
+  {
+    "self": "http://jira.norwex.local/rest/api/2/status/11300",
+    "description": "",
+    "iconUrl": "http://jira.norwex.local/images/icons/statuses/generic.png",
+    "name": "Review Suspended",
+    "id": "11300",
+    "statusCategory": {
+      "self": "http://jira.norwex.local/rest/api/2/statuscategory/2",
+      "id": 2,
+      "key": "new",
+      "colorName": "blue-gray",
+      "name": "To Do"
+    }
+  },
+  {
+    "self": "http://jira.norwex.local/rest/api/2/status/11505",
+    "description": "",
+    "iconUrl": "http://jira.norwex.local/images/icons/statuses/generic.png",
+    "name": "Bug Confirmed",
+    "id": "11505",
+    "statusCategory": {
+      "self": "http://jira.norwex.local/rest/api/2/statuscategory/2",
+      "id": 2,
+      "key": "new",
+      "colorName": "blue-gray",
+      "name": "To Do"
+    }
+  },
+  {
+    "self": "http://jira.norwex.local/rest/api/2/status/11506",
+    "description": "",
+    "iconUrl": "http://jira.norwex.local/images/icons/statuses/generic.png",
+    "name": "Backlog",
+    "id": "11506",
+    "statusCategory": {
+      "self": "http://jira.norwex.local/rest/api/2/statuscategory/2",
+      "id": 2,
+      "key": "new",
+      "colorName": "blue-gray",
+      "name": "To Do"
+    }
+  },
+  {
+    "self": "http://jira.norwex.local/rest/api/2/status/11507",
+    "description": "",
+    "iconUrl": "http://jira.norwex.local/images/icons/statuses/generic.png",
+    "name": "Cancel",
+    "id": "11507",
+    "statusCategory": {
+      "self": "http://jira.norwex.local/rest/api/2/statuscategory/3",
+      "id": 3,
+      "key": "done",
+      "colorName": "green",
+      "name": "Done"
+    }
+  },
+  {
+    "self": "http://jira.norwex.local/rest/api/2/status/11600",
+    "description": "QA is unable to test this issue.",
+    "iconUrl": "http://jira.norwex.local/images/icons/statuses/generic.png",
+    "name": "Untestable",
+    "id": "11600",
+    "statusCategory": {
+      "self": "http://jira.norwex.local/rest/api/2/statuscategory/4",
+      "id": 4,
+      "key": "indeterminate",
+      "colorName": "yellow",
+      "name": "In Progress"
+    }
+  },
+  {
+    "self": "http://jira.norwex.local/rest/api/2/status/11700",
+    "description": "",
+    "iconUrl": "http://jira.norwex.local/",
+    "name": "In Progress",
+    "id": "11700",
+    "statusCategory": {
+      "self": "http://jira.norwex.local/rest/api/2/statuscategory/4",
+      "id": 4,
+      "key": "indeterminate",
+      "colorName": "yellow",
+      "name": "In Progress"
+    }
+  },
+  {
+    "self": "http://jira.norwex.local/rest/api/2/status/11800",
+    "description": "This was auto-generated by JIRA Service Desk during workflow import",
+    "iconUrl": "http://jira.norwex.local/images/icons/statuses/generic.png",
+    "name": "Declined",
+    "id": "11800",
+    "statusCategory": {
+      "self": "http://jira.norwex.local/rest/api/2/statuscategory/3",
+      "id": 3,
+      "key": "done",
+      "colorName": "green",
+      "name": "Done"
+    }
+  },
+  {
+    "self": "http://jira.norwex.local/rest/api/2/status/11801",
+    "description": "This was auto-generated by JIRA Service Desk during workflow import",
+    "iconUrl": "http://jira.norwex.local/images/icons/status_generic.gif",
+    "name": "Canceled",
+    "id": "11801",
+    "statusCategory": {
+      "self": "http://jira.norwex.local/rest/api/2/statuscategory/3",
+      "id": 3,
+      "key": "done",
+      "colorName": "green",
+      "name": "Done"
+    }
+  },
+  {
+    "self": "http://jira.norwex.local/rest/api/2/status/11802",
+    "description": "This was auto-generated by JIRA Service Desk during workflow import",
+    "iconUrl": "http://jira.norwex.local/images/icons/status_generic.gif",
+    "name": "Escalated",
+    "id": "11802",
+    "statusCategory": {
+      "self": "http://jira.norwex.local/rest/api/2/statuscategory/4",
+      "id": 4,
+      "key": "indeterminate",
+      "colorName": "yellow",
+      "name": "In Progress"
+    }
+  },
+  {
+    "self": "http://jira.norwex.local/rest/api/2/status/11803",
+    "description": "This was auto-generated by JIRA Service Desk during workflow import",
+    "iconUrl": "http://jira.norwex.local/images/icons/status_generic.gif",
+    "name": "Waiting for approval",
+    "id": "11803",
+    "statusCategory": {
+      "self": "http://jira.norwex.local/rest/api/2/statuscategory/2",
+      "id": 2,
+      "key": "new",
+      "colorName": "blue-gray",
+      "name": "To Do"
+    }
+  },
+  {
+    "self": "http://jira.norwex.local/rest/api/2/status/11804",
+    "description": "This was auto-generated by JIRA Service Desk during workflow import",
+    "iconUrl": "http://jira.norwex.local/images/icons/status_generic.gif",
+    "name": "Awaiting CAB approval",
+    "id": "11804",
+    "statusCategory": {
+      "self": "http://jira.norwex.local/rest/api/2/statuscategory/4",
+      "id": 4,
+      "key": "indeterminate",
+      "colorName": "yellow",
+      "name": "In Progress"
+    }
+  },
+  {
+    "self": "http://jira.norwex.local/rest/api/2/status/11805",
+    "description": "This was auto-generated by JIRA Service Desk during workflow import",
+    "iconUrl": "http://jira.norwex.local/images/icons/status_generic.gif",
+    "name": "Planning",
+    "id": "11805",
+    "statusCategory": {
+      "self": "http://jira.norwex.local/rest/api/2/statuscategory/4",
+      "id": 4,
+      "key": "indeterminate",
+      "colorName": "yellow",
+      "name": "In Progress"
+    }
+  },
+  {
+    "self": "http://jira.norwex.local/rest/api/2/status/11806",
+    "description": "This was auto-generated by JIRA Service Desk during workflow import",
+    "iconUrl": "http://jira.norwex.local/images/icons/status_generic.gif",
+    "name": "Awaiting implementation",
+    "id": "11806",
+    "statusCategory": {
+      "self": "http://jira.norwex.local/rest/api/2/statuscategory/4",
+      "id": 4,
+      "key": "indeterminate",
+      "colorName": "yellow",
+      "name": "In Progress"
+    }
+  },
+  {
+    "self": "http://jira.norwex.local/rest/api/2/status/11807",
+    "description": "This was auto-generated by JIRA Service Desk during workflow import",
+    "iconUrl": "http://jira.norwex.local/images/icons/status_generic.gif",
+    "name": "Implementing",
+    "id": "11807",
+    "statusCategory": {
+      "self": "http://jira.norwex.local/rest/api/2/statuscategory/4",
+      "id": 4,
+      "key": "indeterminate",
+      "colorName": "yellow",
+      "name": "In Progress"
+    }
+  },
+  {
+    "self": "http://jira.norwex.local/rest/api/2/status/11808",
+    "description": "This was auto-generated by JIRA Service Desk during workflow import",
+    "iconUrl": "http://jira.norwex.local/images/icons/status_generic.gif",
+    "name": "Peer review / change manager approval",
+    "id": "11808",
+    "statusCategory": {
+      "self": "http://jira.norwex.local/rest/api/2/statuscategory/2",
+      "id": 2,
+      "key": "new",
+      "colorName": "blue-gray",
+      "name": "To Do"
+    }
+  },
+  {
+    "self": "http://jira.norwex.local/rest/api/2/status/11809",
+    "description": "This was auto-generated by JIRA Service Desk during workflow import",
+    "iconUrl": "http://jira.norwex.local/images/icons/status_generic.gif",
+    "name": "Open",
+    "id": "11809",
+    "statusCategory": {
+      "self": "http://jira.norwex.local/rest/api/2/statuscategory/1",
+      "id": 1,
+      "key": "undefined",
+      "colorName": "medium-gray",
+      "name": "No Category"
+    }
+  },
+  {
+    "self": "http://jira.norwex.local/rest/api/2/status/11810",
+    "description": "This was auto-generated by JIRA Service Desk during workflow import",
+    "iconUrl": "http://jira.norwex.local/images/icons/status_generic.gif",
+    "name": "Work in progress",
+    "id": "11810",
+    "statusCategory": {
+      "self": "http://jira.norwex.local/rest/api/2/statuscategory/4",
+      "id": 4,
+      "key": "indeterminate",
+      "colorName": "yellow",
+      "name": "In Progress"
+    }
+  },
+  {
+    "self": "http://jira.norwex.local/rest/api/2/status/11811",
+    "description": "This was auto-generated by JIRA Service Desk during workflow import",
+    "iconUrl": "http://jira.norwex.local/images/icons/status_generic.gif",
+    "name": "Completed",
+    "id": "11811",
+    "statusCategory": {
+      "self": "http://jira.norwex.local/rest/api/2/statuscategory/3",
+      "id": 3,
+      "key": "done",
+      "colorName": "green",
+      "name": "Done"
+    }
+  },
+  {
+    "self": "http://jira.norwex.local/rest/api/2/status/11812",
+    "description": "This was auto-generated by JIRA Service Desk during workflow import",
+    "iconUrl": "http://jira.norwex.local/images/icons/status_generic.gif",
+    "name": "Under investigation",
+    "id": "11812",
+    "statusCategory": {
+      "self": "http://jira.norwex.local/rest/api/2/statuscategory/4",
+      "id": 4,
+      "key": "indeterminate",
+      "colorName": "yellow",
+      "name": "In Progress"
+    }
+  },
+  {
+    "self": "http://jira.norwex.local/rest/api/2/status/11813",
+    "description": "This was auto-generated by JIRA Service Desk during workflow import",
+    "iconUrl": "http://jira.norwex.local/images/icons/status_generic.gif",
+    "name": "Under review",
+    "id": "11813",
+    "statusCategory": {
+      "self": "http://jira.norwex.local/rest/api/2/statuscategory/2",
+      "id": 2,
+      "key": "new",
+      "colorName": "blue-gray",
+      "name": "To Do"
+    }
+  },
+  {
+    "self": "http://jira.norwex.local/rest/api/2/status/11900",
+    "description": "QA has verified that the required changes have been made in the QA environment",
+    "iconUrl": "http://jira.norwex.local/images/icons/statuses/generic.png",
+    "name": "Done - Passed",
+    "id": "11900",
+    "statusCategory": {
+      "self": "http://jira.norwex.local/rest/api/2/statuscategory/3",
+      "id": 3,
+      "key": "done",
+      "colorName": "green",
+      "name": "Done"
+    }
+  },
+  {
+    "self": "http://jira.norwex.local/rest/api/2/status/11901",
+    "description": "QA has deemed that the current QA codebase does not adequately resolve the issue. QA should open a new bug (linked to this issue) detailing the problem.",
+    "iconUrl": "http://jira.norwex.local/images/icons/statuses/generic.png",
+    "name": "Done - Failed",
+    "id": "11901",
+    "statusCategory": {
+      "self": "http://jira.norwex.local/rest/api/2/statuscategory/3",
+      "id": 3,
+      "key": "done",
+      "colorName": "green",
+      "name": "Done"
+    }
+  }
+]
